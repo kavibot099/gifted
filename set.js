@@ -16,7 +16,7 @@ global.ytdl = "https://ytdl.giftedtech.web.id"; // You Can Change this...
 module.exports = {
 SESSION_ID: process.env.SESSION_ID || "Gifted~2uYXlKjD#0lZrEJZ_-tr75lWa5Gv0Tcy7b4TewoV2rsPpCNdN724", // Add sess Id here espwcially when deploying on panels else use app.json and .env file...
 SUDO_NUMBERS: process.env.SUDO_NUMBERS || "94713787331", //Add multiple Numbers with Country Codes without (+) Separated by Comma...
-ANTI_DELETE: process.env.ANTI_DELETE || false, // Make true to use Antidelete for Chats, Groups, Statuses & Channels
+ANTI_DELETE: process.env.ANTI_DELETE || "true", // Make true to use Antidelete for Chats, Groups, Statuses & Channels
 AUTO_READ_STATUS: process.env.AUTO_READ_STATUS || "true",
 AUTO_LIKE_STATUS: process.env.AUTO_LIKE_STATUS || "true",
 AUTO_LIKE_EMOJI: process.env.AUTO_LIKE_EMOJI || "💜", //Input Yours custom...
@@ -38,7 +38,7 @@ AUTO_REACT: process.env.AUTO_REACT || "true",
 BOT_NAME: process.env.BOT_NAME || "ƚԋҽ_ƙαʋι", // Input Yours custom...(Maintain font for Flow)
 BOT_PIC: process.env.BOT_PIC || "https://files.giftedtech.web.id/file/gifted-md.jpg", // You can Replace with yours...
 AUTO_AUDIO: process.env.AUTO_AUDIO || "true",
-AUTO_BIO: process.env.AUTO_BIO || "true",
+AUTO_BIO: process.env.AUTO_BIO || "false",
 AUTO_BIO_QUOTE: process.env.AUTO_BIO_QUOTE || "Gifted creates things that creates other things",
 CHAT_BOT: process.env.CHAT_BOT || "false", // Put value to true to enablle for all chats only or inbox to ebanle in pm chats only or groups to enable in groups only else false
 WELCOME: process.env.WELCOME || "true",
